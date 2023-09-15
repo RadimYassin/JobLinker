@@ -10,10 +10,9 @@ function App() {
     <div className="App">
 
       <div className="min-h-screen flex flex-col gap-30 ">
-        <header className=" bg-red-600">
+        <header className=" bg-red-200">
 
           <Navbar />
-
 
         </header>
         <main className="bg-gray-200 w-full  ">
@@ -22,7 +21,6 @@ function App() {
           <Routes>
 
             <Route index path="/" element={<p>jobs</p>}/>
-            <Route  path="/e" element={<Register/>}/>
 
 
           </Routes>
