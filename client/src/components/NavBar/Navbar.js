@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import Login from '../Auth/Login/Login'
+import Register from '../Auth/register/Register'
 
 export default function Navbar() {
 
@@ -70,10 +71,14 @@ export default function Navbar() {
     </nav>
 
     {
-      OpenLogin  && <Login setShowModal={setOpenLogin}/>
+      OpenLogin  && <Login setOpenRegister={setOpenRegister} setShowModal={setOpenLogin}/>
     }
 
-\
+
+{
+      OpenRegister  && <Register setOpenLogin={setOpenLogin}  setShowModal={setOpenRegister}/>
+    }
+
 </>
   )
 }

@@ -1,0 +1,55 @@
+.auth{
+    width: 30%;
+}
+@media screen and (max-width: 914px) {
+    .auth{
+      
+     width: 100%;
+
+    }
+   }
+
+@media screen and (max-width: 769px) {
+   .auth{
+    width: 90%;
+   }
+  }
+
+
+
+  @media screen and (max-width: 1024px) {
+    .auth{
+     width: 90%;
+    }
+   }
+
+
+   @media screen and (max-width: 653px) {
+    .auth{
+     width: 100%;
+     padding: 0px;
+     margin: 0px;
+    }
+   }
+
+
+
+   @media screen and (max-width: 1280px) {
+    .auth{
+     width: 80%;
+    }
+   }
+
+
+
+
+
+   @media screen and (max-width: 320px) {
+    .auth{
+        flex: content;
+    }
+
+    .parent{
+        justify-content: start;
+    }
+   }
