@@ -1,0 +1,31 @@
+.Search-Container{
+    width: 65%;
+    height: 25%;
+}
+
+.Search-Form{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+gap: 10px;
+}
+
+
+@media (max-width: 769px) {
+    .Search-Container{
+     width: 90%;
+     height: 40%;
+    }
+
+    .Search-Form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        }
+
+        button{
+          width: 100%;
+        }
+   }

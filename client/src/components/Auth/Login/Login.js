@@ -23,7 +23,7 @@ export default function Login({ setShowModal ,setOpenRegister}) {
         <>
             <div
 
-                className="parent flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className="parent flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-30 outline-none focus:outline-none"
             >
                 <div  className="relative auth  ">
                     {/*content*/}
@@ -89,7 +89,7 @@ export default function Login({ setShowModal ,setOpenRegister}) {
                 </div>
             </div>
 
-            <div className="opacity-25 fixed inset-0 z-40 bg-black" onClick={() => setShowModal(false)}></div>
+            <div className="opacity-25 fixed inset-0  bg-black" onClick={() => setShowModal(false)}></div>
 
         </>
 
