@@ -1,0 +1,40 @@
+.Container-home{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.Container-search{
+width: 65%;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Container-content{
+    flex: 3;
+}
+.Container-filter{
+    width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 4px;
+}
+
+@media (max-width: 769px) {
+    .Container-search{
+     width: 90%;
+     height: 40%;
+    }
+    .Container-filter{
+        width: 90%;
+
+    }
+   
+   }

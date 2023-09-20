@@ -11,7 +11,7 @@ function App() {
     <div className="App">
 
       <div className="min-h-screen flex flex-col gap-30 ">
-        <header className=" bg-red-200">
+        <header className="">
 
           <Navbar />
 

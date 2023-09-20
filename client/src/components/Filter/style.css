@@ -1,0 +1,16 @@
+
+.Filter{
+width: 65%;
+display: flex;
+gap: 10px;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+@media (max-width: 769px) {
+    .Filter{
+     width: 90%;
+    }
+
+   
+   }

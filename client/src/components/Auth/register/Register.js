@@ -85,7 +85,7 @@ const handechangeModal=()=>{
                 </div>
             </div>
 
-            <div className="opacity-25 fixed inset-0 z-40 bg-black" onClick={() => setShowModal(false)}></div>
+            <div className="opacity-25 fixed inset-0 z-20 bg-black" onClick={() => setShowModal(false)}></div>
 
         </>
     )

@@ -1,6 +1,7 @@
 .Search-Container{
-    width: 65%;
-    height: 25%;
+    width: 100%;
+
+   
 }
 
 .Search-Form{
@@ -14,6 +15,7 @@ gap: 10px;
 
 @media (max-width: 769px) {
     .Search-Container{
+      margin-top: 20px;
      width: 90%;
      height: 40%;
     }
@@ -25,7 +27,7 @@ gap: 10px;
         gap: 10px;
         }
 
-        button{
+        #btn{
           width: 100%;
         }
    }
