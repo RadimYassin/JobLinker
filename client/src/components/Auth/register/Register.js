@@ -15,7 +15,7 @@ const handechangeModal=()=>{
         <>
             <div
 
-                className="parent flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className="parent flex justify-center items-center overflow-x-hidden overflow-y-auto  inset-0 z-50 outline-none focus:outline-none"
             >
                 <div className="relative auth  ">
                     {/*content*/}

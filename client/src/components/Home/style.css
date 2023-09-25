@@ -1,40 +1,98 @@
-.Container-home{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.Container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.Container-search{
-width: 65%;
+.Container-search {
     flex: 1;
-
+    width: 70%;
+    padding: 2em 0em;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.Container-content{
+.Container-content {
     flex: 3;
-}
-.Container-filter{
-    width: 100%;
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 4px;
+    width: 75%;
+    display: flex;
+    justify-content: start;
+    height: auto;
 }
 
+.Container-filter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.Job-detail {
+    flex: 1;
+}
+
+.Job-list {
+    flex: 1;
+}
+
+
+
+
+
+
+
+.content-div {
+    background-image: url('https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-div:hover {
+    background-image:
+        linear-gradient(to right,
+            rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801)),
+        url('https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80');
+}
+
+.image-cover {
+    height: auto;
+}
+
+/*
+    -remove the classes below if you have the 'group-hover'property added in your tailwind config file
+    -also remove the class from the html template
+    */
+.content-div:hover .fd-cl {
+    opacity: 0.25;
+}
+
+.content-div:hover .fd-sh {
+    opacity: 1;
+}
+
+
 @media (max-width: 769px) {
-    .Container-search{
-     width: 90%;
-     height: 40%;
+    .Container-search {
+        width: 90%;
+        height: 40%;
     }
-    .Container-filter{
+
+    .Container-filter {
         width: 90%;
 
     }
-   
-   }
+
+    .Container-content {
+        width: 90%;
+    }
+
+    .Job-detail {
+        display: none;
+    }
+}
